@@ -43,7 +43,7 @@ const ordersInitSuccess = (state, action) => {
 };
 
 const ordersInitFailed = (state, action) => {
-    return (state, {loading: false});
+    return (state, {loading: false, orders: []});
 };
 
 const reducer = (state=initialState, action) => {

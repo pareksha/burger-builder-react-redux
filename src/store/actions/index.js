@@ -8,3 +8,8 @@ export {
     purchasedInit,
     ordersInit,
 } from './orders';
+export {
+    authInit,
+    authLogout,
+    authStatusCheck,
+} from './auth';

@@ -13,16 +13,14 @@ const input = (props) => {
             inputElement = <input
                                 className={classes.join(' ')}
                                 value={props.value} 
-                                {...props.elementConfig} 
-                                type={props.elementType}
+                                {...props.elementConfig}
                                 onChange={props.changed} />;
             break;
         case ('textarea'):
             inputElement = <textarea 
                                 className={classes.join(' ')} 
                                 value={props.value} 
-                                {...props.elementConfig} 
-                                type={props.elementType}
+                                {...props.elementConfig}
                                 onChange={props.changed} />;
             break;
         case ('select'):
